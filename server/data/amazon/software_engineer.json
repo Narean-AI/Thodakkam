@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "What is the worst-case time complexity of QuickSort?",
+    "options": ["O(n log n)", "O(n)", "O(n^2)", "O(log n)"],
+    "answer": "O(n^2)",
+    "keyword": "algorithms"
+  },
+  {
+    "id": 2,
+    "question": "Which data structure is best suited for implementing a priority queue?",
+    "options": ["Array", "Linked List", "Heap", "Stack"],
+    "answer": "Heap",
+    "keyword": "data-structure"
+  },
+  {
+    "id": 3,
+    "question": "Which traversal gives sorted order in a BST?",
+    "options": ["Preorder", "Postorder", "Level Order", "Inorder"],
+    "answer": "Inorder",
+    "keyword": "trees"
+  },
+  {
+    "id": 4,
+    "question": "What is the space complexity of BFS in worst case?",
+    "options": ["O(h)", "O(n)", "O(log n)", "O(1)"],
+    "answer": "O(n)",
+    "keyword": "graphs"
+  },
+  {
+    "id": 5,
+    "question": "Which principle does 'Open/Closed Principle' belong to?",
+    "options": ["DRY", "SOLID", "KISS", "YAGNI"],
+    "answer": "SOLID",
+    "keyword": "oop"
+  },
+  {
+    "id": 6,
+    "question": "What is the main advantage of normalization in DBMS?",
+    "options": ["Increase redundancy", "Reduce redundancy", "Increase speed", "Avoid joins"],
+    "answer": "Reduce redundancy",
+    "keyword": "database"
+  },
+  {
+    "id": 7,
+    "question": "Which isolation level prevents phantom reads?",
+    "options": ["Read Uncommitted", "Read Committed", "Repeatable Read", "Serializable"],
+    "answer": "Serializable",
+    "keyword": "database"
+  },
+  {
+    "id": 8,
+    "question": "Which HTTP status code indicates resource created?",
+    "options": ["200", "201", "204", "404"],
+    "answer": "201",
+    "keyword": "http"
+  },
+  {
+    "id": 9,
+    "question": "Which technique avoids deadlock?",
+    "options": ["Circular wait", "Hold and wait", "Resource ordering", "Mutual exclusion"],
+    "answer": "Resource ordering",
+    "keyword": "os"
+  },
+  {
+    "id": 10,
+    "question": "Which algorithm detects cycle in directed graph?",
+    "options": ["DFS with recursion stack", "BFS", "Dijkstra", "Prim"],
+    "answer": "DFS with recursion stack",
+    "keyword": "graphs"
+  },
+  {
+    "id": 11,
+    "question": "Time complexity of inserting in HashMap (average case)?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"],
+    "answer": "O(1)",
+    "keyword": "hashing"
+  },
+  {
+    "id": 12,
+    "question": "Which CAP theorem property sacrifices consistency?",
+    "options": ["CP", "AP", "CA", "None"],
+    "answer": "AP",
+    "keyword": "distributed-systems"
+  },
+  {
+    "id": 13,
+    "question": "Which protocol is stateless?",
+    "options": ["HTTP", "FTP", "SMTP", "TCP"],
+    "answer": "HTTP",
+    "keyword": "networking"
+  },
+  {
+    "id": 14,
+    "question": "Which pattern ensures single instance of a class?",
+    "options": ["Factory", "Singleton", "Observer", "Decorator"],
+    "answer": "Singleton",
+    "keyword": "design-pattern"
+  },
+  {
+    "id": 15,
+    "question": "Which index improves range queries?",
+    "options": ["Hash Index", "B-Tree Index", "Bitmap Index", "Cluster Index"],
+    "answer": "B-Tree Index",
+    "keyword": "database"
+  },
+  {
+    "id": 16,
+    "question": "Which sorting algorithm is in-place and stable?",
+    "options": ["Quick Sort", "Heap Sort", "Insertion Sort", "Selection Sort"],
+    "answer": "Insertion Sort",
+    "keyword": "algorithms"
+  },
+  {
+    "id": 17,
+    "question": "Which memory is fastest?",
+    "options": ["RAM", "Cache", "SSD", "HDD"],
+    "answer": "Cache",
+    "keyword": "os"
+  },
+  {
+    "id": 18,
+    "question": "Which technique is used in dynamic programming?",
+    "options": ["Backtracking", "Memoization", "Greedy", "Divide only"],
+    "answer": "Memoization",
+    "keyword": "dp"
+  },
+  {
+    "id": 19,
+    "question": "Which load balancing algorithm distributes equally in rotation?",
+    "options": ["Least Connections", "Round Robin", "IP Hash", "Random"],
+    "answer": "Round Robin",
+    "keyword": "system-design"
+  },
+  {
+    "id": 20,
+    "question": "Which database is strongly consistent by default?",
+    "options": ["MongoDB", "Cassandra", "PostgreSQL", "Redis"],
+    "answer": "PostgreSQL",
+    "keyword": "database"
+  }
+]

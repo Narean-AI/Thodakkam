@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "Which metric is most important for measuring operational efficiency?",
+    "options": ["ROI", "KPI", "EPS", "API"],
+    "answer": "KPI",
+    "keyword": "operations-metrics"
+  },
+  {
+    "id": 2,
+    "question": "Which methodology focuses on eliminating waste?",
+    "options": ["Agile", "Six Sigma", "Lean", "Scrum"],
+    "answer": "Lean",
+    "keyword": "process-optimization"
+  },
+  {
+    "id": 3,
+    "question": "What does Six Sigma primarily aim to reduce?",
+    "options": ["Revenue", "Defects", "Headcount", "Time zones"],
+    "answer": "Defects",
+    "keyword": "six-sigma"
+  },
+  {
+    "id": 4,
+    "question": "Which tool is used for root cause analysis?",
+    "options": ["Fishbone Diagram", "Pie Chart", "Bar Graph", "Histogram"],
+    "answer": "Fishbone Diagram",
+    "keyword": "root-cause"
+  },
+  {
+    "id": 5,
+    "question": "Which concept ensures continuous improvement?",
+    "options": ["Kaizen", "Outsourcing", "Downsizing", "Automation"],
+    "answer": "Kaizen",
+    "keyword": "continuous-improvement"
+  },
+  {
+    "id": 6,
+    "question": "What does SLA stand for?",
+    "options": ["Service Level Agreement", "System Load Access", "Standard Level Audit", "Service Log Analysis"],
+    "answer": "Service Level Agreement",
+    "keyword": "service-management"
+  },
+  {
+    "id": 7,
+    "question": "Which inventory method assumes first items purchased are first sold?",
+    "options": ["LIFO", "FIFO", "JIT", "EOQ"],
+    "answer": "FIFO",
+    "keyword": "inventory-management"
+  },
+  {
+    "id": 8,
+    "question": "What is the primary goal of demand forecasting?",
+    "options": ["Reduce staff", "Predict future demand", "Increase taxes", "Lower wages"],
+    "answer": "Predict future demand",
+    "keyword": "forecasting"
+  },
+  {
+    "id": 9,
+    "question": "Which strategy reduces operational bottlenecks?",
+    "options": ["Process Mapping", "Ignoring delays", "Reducing staff randomly", "Manual tracking only"],
+    "answer": "Process Mapping",
+    "keyword": "process-design"
+  },
+  {
+    "id": 10,
+    "question": "Which financial metric measures profitability?",
+    "options": ["Gross Margin", "Latency", "Bandwidth", "CPU Usage"],
+    "answer": "Gross Margin",
+    "keyword": "finance"
+  },
+  {
+    "id": 11,
+    "question": "Which scheduling method minimizes waiting time?",
+    "options": ["FIFO", "LIFO", "Shortest Job First", "Random"],
+    "answer": "Shortest Job First",
+    "keyword": "scheduling"
+  },
+  {
+    "id": 12,
+    "question": "What is the main purpose of risk management?",
+    "options": ["Increase uncertainty", "Identify and mitigate risks", "Reduce profits", "Delay decisions"],
+    "answer": "Identify and mitigate risks",
+    "keyword": "risk-management"
+  },
+  {
+    "id": 13,
+    "question": "Which chart tracks performance over time?",
+    "options": ["Line Chart", "Pie Chart", "Scatter Plot", "Radar Chart"],
+    "answer": "Line Chart",
+    "keyword": "data-analysis"
+  },
+  {
+    "id": 14,
+    "question": "Which term refers to outsourcing non-core activities?",
+    "options": ["Vertical Integration", "Business Process Outsourcing", "Diversification", "Centralization"],
+    "answer": "Business Process Outsourcing",
+    "keyword": "outsourcing"
+  },
+  {
+    "id": 15,
+    "question": "Which approach improves supply chain efficiency?",
+    "options": ["Just-In-Time", "Bulk Overstocking", "Manual Inventory", "Delayed Shipping"],
+    "answer": "Just-In-Time",
+    "keyword": "supply-chain"
+  },
+  {
+    "id": 16,
+    "question": "Which KPI measures customer satisfaction?",
+    "options": ["Net Promoter Score", "Revenue Growth", "Headcount", "Inventory Turnover"],
+    "answer": "Net Promoter Score",
+    "keyword": "customer-experience"
+  },
+  {
+    "id": 17,
+    "question": "Which budgeting method starts from zero each period?",
+    "options": ["Zero-Based Budgeting", "Incremental Budgeting", "Rolling Budget", "Static Budget"],
+    "answer": "Zero-Based Budgeting",
+    "keyword": "budgeting"
+  },
+  {
+    "id": 18,
+    "question": "Which tool monitors workflow tasks in teams?",
+    "options": ["Jira", "Photoshop", "Excel Paint", "Chrome"],
+    "answer": "Jira",
+    "keyword": "project-management"
+  },
+  {
+    "id": 19,
+    "question": "Which ratio measures operational efficiency?",
+    "options": ["Operating Ratio", "Debt Ratio", "Current Ratio", "Liquidity Ratio"],
+    "answer": "Operating Ratio",
+    "keyword": "finance"
+  },
+  {
+    "id": 20,
+    "question": "Which principle focuses on aligning operations with business strategy?",
+    "options": ["Strategic Alignment", "Random Planning", "Manual Tracking", "Cost Cutting Only"],
+    "answer": "Strategic Alignment",
+    "keyword": "strategy"
+  }
+]

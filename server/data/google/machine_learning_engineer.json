@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "Which technique is used to reduce overfitting in neural networks?",
+    "options": ["Dropout", "Batch Normalization", "Gradient Descent", "ReLU"],
+    "answer": "Dropout",
+    "keyword": "regularization"
+  },
+  {
+    "id": 2,
+    "question": "What happens when learning rate is too high?",
+    "options": ["Slow convergence", "Overshooting minima", "Underfitting", "Better accuracy"],
+    "answer": "Overshooting minima",
+    "keyword": "optimization"
+  },
+  {
+    "id": 3,
+    "question": "Which metric is best for highly imbalanced classification problems?",
+    "options": ["Accuracy", "Precision-Recall AUC", "MSE", "R2 Score"],
+    "answer": "Precision-Recall AUC",
+    "keyword": "evaluation"
+  },
+  {
+    "id": 4,
+    "question": "What does L1 regularization promote?",
+    "options": ["Large weights", "Feature sparsity", "Overfitting", "High variance"],
+    "answer": "Feature sparsity",
+    "keyword": "regularization"
+  },
+  {
+    "id": 5,
+    "question": "Which activation function suffers from vanishing gradient?",
+    "options": ["ReLU", "Sigmoid", "Leaky ReLU", "Softmax"],
+    "answer": "Sigmoid",
+    "keyword": "neural-networks"
+  },
+  {
+    "id": 6,
+    "question": "Which algorithm is sensitive to feature scaling?",
+    "options": ["Decision Tree", "Random Forest", "KNN", "Naive Bayes"],
+    "answer": "KNN",
+    "keyword": "preprocessing"
+  },
+  {
+    "id": 7,
+    "question": "Which technique handles multicollinearity?",
+    "options": ["Ridge Regression", "Linear Regression", "K-Means", "SVM"],
+    "answer": "Ridge Regression",
+    "keyword": "regression"
+  },
+  {
+    "id": 8,
+    "question": "Which loss function is used for binary classification?",
+    "options": ["MSE", "Cross-Entropy", "Hinge", "Huber"],
+    "answer": "Cross-Entropy",
+    "keyword": "loss-function"
+  },
+  {
+    "id": 9,
+    "question": "Which algorithm is ensemble-based?",
+    "options": ["Linear Regression", "KNN", "Random Forest", "K-Means"],
+    "answer": "Random Forest",
+    "keyword": "ensemble"
+  },
+  {
+    "id": 10,
+    "question": "Which method is used to select best hyperparameters?",
+    "options": ["Gradient Descent", "Grid Search", "Normalization", "Encoding"],
+    "answer": "Grid Search",
+    "keyword": "hyperparameter"
+  },
+  {
+    "id": 11,
+    "question": "Which technique is used in dimensionality reduction?",
+    "options": ["PCA", "KNN", "Logistic Regression", "XGBoost"],
+    "answer": "PCA",
+    "keyword": "dimensionality"
+  },
+  {
+    "id": 12,
+    "question": "Which algorithm works well for sequential data?",
+    "options": ["CNN", "RNN", "K-Means", "Linear Regression"],
+    "answer": "RNN",
+    "keyword": "deep-learning"
+  },
+  {
+    "id": 13,
+    "question": "What does ROC curve represent?",
+    "options": ["Loss vs Accuracy", "TPR vs FPR", "Precision vs Recall", "Bias vs Variance"],
+    "answer": "TPR vs FPR",
+    "keyword": "evaluation"
+  },
+  {
+    "id": 14,
+    "question": "Which method prevents exploding gradients?",
+    "options": ["Gradient Clipping", "Dropout", "Batch Size Increase", "Softmax"],
+    "answer": "Gradient Clipping",
+    "keyword": "optimization"
+  },
+  {
+    "id": 15,
+    "question": "Which algorithm assumes independence between features?",
+    "options": ["SVM", "Naive Bayes", "Decision Tree", "Neural Network"],
+    "answer": "Naive Bayes",
+    "keyword": "probability"
+  },
+  {
+    "id": 16,
+    "question": "Which technique balances bias and variance?",
+    "options": ["Cross-Validation", "Normalization", "Encoding", "Data Cleaning"],
+    "answer": "Cross-Validation",
+    "keyword": "model-validation"
+  },
+  {
+    "id": 17,
+    "question": "Which layer is used for classification output?",
+    "options": ["Softmax", "ReLU", "Sigmoid Hidden", "Dropout"],
+    "answer": "Softmax",
+    "keyword": "neural-networks"
+  },
+  {
+    "id": 18,
+    "question": "Which algorithm is best for clustering?",
+    "options": ["K-Means", "Logistic Regression", "SVM", "Linear Regression"],
+    "answer": "K-Means",
+    "keyword": "clustering"
+  },
+  {
+    "id": 19,
+    "question": "What is the purpose of batch normalization?",
+    "options": ["Increase overfitting", "Stabilize training", "Reduce dataset size", "Change activation"],
+    "answer": "Stabilize training",
+    "keyword": "deep-learning"
+  },
+  {
+    "id": 20,
+    "question": "Which technique is used for model interpretability?",
+    "options": ["SHAP", "Dropout", "Backpropagation", "Adam Optimizer"],
+    "answer": "SHAP",
+    "keyword": "model-interpretability"
+  }
+]

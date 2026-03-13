@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "Which assumption is required for linear regression?",
+    "options": ["Linearity", "Non-independence", "Non-normality", "Heteroscedasticity"],
+    "answer": "Linearity",
+    "keyword": "regression"
+  },
+  {
+    "id": 2,
+    "question": "Which test is used to compare means of two independent samples?",
+    "options": ["Chi-square", "Paired T-test", "Independent T-test", "ANOVA"],
+    "answer": "Independent T-test",
+    "keyword": "statistics"
+  },
+  {
+    "id": 3,
+    "question": "What does p-value represent?",
+    "options": ["Probability null is true", "Probability of observing data given null hypothesis", "Accuracy score", "Confidence level"],
+    "answer": "Probability of observing data given null hypothesis",
+    "keyword": "hypothesis-testing"
+  },
+  {
+    "id": 4,
+    "question": "Which technique is used for feature scaling?",
+    "options": ["One-hot encoding", "Standardization", "Tokenization", "Stemming"],
+    "answer": "Standardization",
+    "keyword": "preprocessing"
+  },
+  {
+    "id": 5,
+    "question": "Which metric is better for regression evaluation?",
+    "options": ["Accuracy", "F1 Score", "Mean Squared Error", "ROC AUC"],
+    "answer": "Mean Squared Error",
+    "keyword": "evaluation"
+  },
+  {
+    "id": 6,
+    "question": "Which algorithm is robust to outliers?",
+    "options": ["Linear Regression", "Decision Tree", "KNN", "Logistic Regression"],
+    "answer": "Decision Tree",
+    "keyword": "ml-algorithms"
+  },
+  {
+    "id": 7,
+    "question": "Which sampling method reduces bias?",
+    "options": ["Random Sampling", "Convenience Sampling", "Cluster Bias", "Manual Sampling"],
+    "answer": "Random Sampling",
+    "keyword": "sampling"
+  },
+  {
+    "id": 8,
+    "question": "Which library is primarily used for statistical modeling in Python?",
+    "options": ["TensorFlow", "Statsmodels", "React", "Bootstrap"],
+    "answer": "Statsmodels",
+    "keyword": "python"
+  },
+  {
+    "id": 9,
+    "question": "What does ROC curve evaluate?",
+    "options": ["Regression fit", "Clustering accuracy", "Classification performance", "Time complexity"],
+    "answer": "Classification performance",
+    "keyword": "evaluation"
+  },
+  {
+    "id": 10,
+    "question": "Which technique handles missing data?",
+    "options": ["Imputation", "Normalization", "Encoding", "Tokenization"],
+    "answer": "Imputation",
+    "keyword": "data-cleaning"
+  },
+  {
+    "id": 11,
+    "question": "Which method is used for dimensionality reduction?",
+    "options": ["PCA", "Naive Bayes", "Random Forest", "Linear Regression"],
+    "answer": "PCA",
+    "keyword": "dimensionality"
+  },
+  {
+    "id": 12,
+    "question": "What is multicollinearity?",
+    "options": ["Correlation between independent variables", "High variance", "Data leakage", "Overfitting"],
+    "answer": "Correlation between independent variables",
+    "keyword": "regression"
+  },
+  {
+    "id": 13,
+    "question": "Which algorithm is best for time series forecasting?",
+    "options": ["ARIMA", "K-Means", "Logistic Regression", "SVM"],
+    "answer": "ARIMA",
+    "keyword": "time-series"
+  },
+  {
+    "id": 14,
+    "question": "Which measure indicates skewness?",
+    "options": ["Mean", "Standard Deviation", "Third moment", "Median"],
+    "answer": "Third moment",
+    "keyword": "statistics"
+  },
+  {
+    "id": 15,
+    "question": "Which technique reduces model variance?",
+    "options": ["Bagging", "Normalization", "Scaling", "Encoding"],
+    "answer": "Bagging",
+    "keyword": "ensemble"
+  },
+  {
+    "id": 16,
+    "question": "Which evaluation metric is used for ranking problems?",
+    "options": ["MAP", "MSE", "Accuracy", "MAE"],
+    "answer": "MAP",
+    "keyword": "ranking"
+  },
+  {
+    "id": 17,
+    "question": "Which distribution is symmetric?",
+    "options": ["Normal Distribution", "Exponential", "Poisson", "Gamma"],
+    "answer": "Normal Distribution",
+    "keyword": "probability"
+  },
+  {
+    "id": 18,
+    "question": "Which technique detects outliers?",
+    "options": ["IQR", "Scaling", "Encoding", "Normalization"],
+    "answer": "IQR",
+    "keyword": "outliers"
+  },
+  {
+    "id": 19,
+    "question": "Which test compares variance between groups?",
+    "options": ["ANOVA", "T-test", "Chi-square", "Regression"],
+    "answer": "ANOVA",
+    "keyword": "statistics"
+  },
+  {
+    "id": 20,
+    "question": "Which model evaluation technique uses multiple train-test splits?",
+    "options": ["Cross-Validation", "Holdout", "Bootstrap", "Random Guess"],
+    "answer": "Cross-Validation",
+    "keyword": "model-validation"
+  }
+]

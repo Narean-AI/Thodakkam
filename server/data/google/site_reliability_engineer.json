@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "What does SLO stand for in SRE?",
+    "options": ["Service Level Objective", "System Level Output", "Server Load Optimization", "Service Log Operation"],
+    "answer": "Service Level Objective",
+    "keyword": "sre-basics"
+  },
+  {
+    "id": 2,
+    "question": "Which metric is part of the 'Four Golden Signals'?",
+    "options": ["Latency", "Code Coverage", "Memory Allocation", "Thread Count"],
+    "answer": "Latency",
+    "keyword": "monitoring"
+  },
+  {
+    "id": 3,
+    "question": "What is the primary purpose of an error budget?",
+    "options": ["Track code bugs", "Measure allowed downtime", "Reduce latency", "Monitor logs"],
+    "answer": "Measure allowed downtime",
+    "keyword": "reliability"
+  },
+  {
+    "id": 4,
+    "question": "Which tool is commonly used for monitoring metrics?",
+    "options": ["Prometheus", "Photoshop", "Excel", "Postman"],
+    "answer": "Prometheus",
+    "keyword": "monitoring"
+  },
+  {
+    "id": 5,
+    "question": "Which strategy improves system availability?",
+    "options": ["Single point deployment", "Horizontal scaling", "Manual failover", "Disabling logs"],
+    "answer": "Horizontal scaling",
+    "keyword": "scalability"
+  },
+  {
+    "id": 6,
+    "question": "What does MTTR stand for?",
+    "options": ["Mean Time To Recovery", "Maximum Traffic Threshold Rate", "Memory Transfer Test Run", "Manual Testing Time Range"],
+    "answer": "Mean Time To Recovery",
+    "keyword": "incident-management"
+  },
+  {
+    "id": 7,
+    "question": "Which load balancing algorithm distributes traffic evenly?",
+    "options": ["Round Robin", "Random Drop", "Manual Route", "Static Binding"],
+    "answer": "Round Robin",
+    "keyword": "load-balancing"
+  },
+  {
+    "id": 8,
+    "question": "Which file system is commonly used in Linux servers?",
+    "options": ["NTFS", "EXT4", "FAT32", "HFS+"],
+    "answer": "EXT4",
+    "keyword": "linux"
+  },
+  {
+    "id": 9,
+    "question": "Which protocol is used for secure remote login?",
+    "options": ["HTTP", "SSH", "FTP", "SMTP"],
+    "answer": "SSH",
+    "keyword": "security"
+  },
+  {
+    "id": 10,
+    "question": "What is a common cause of cascading failure?",
+    "options": ["Proper isolation", "Shared dependency overload", "Autoscaling", "Load balancing"],
+    "answer": "Shared dependency overload",
+    "keyword": "architecture"
+  },
+  {
+    "id": 11,
+    "question": "Which command checks memory usage in Linux?",
+    "options": ["top", "ls", "mkdir", "echo"],
+    "answer": "top",
+    "keyword": "linux"
+  },
+  {
+    "id": 12,
+    "question": "Which concept prevents system overload by limiting traffic?",
+    "options": ["Rate Limiting", "Sharding", "Indexing", "Caching"],
+    "answer": "Rate Limiting",
+    "keyword": "traffic-control"
+  },
+  {
+    "id": 13,
+    "question": "Which tool is used for log aggregation?",
+    "options": ["ELK Stack", "VS Code", "Chrome", "Figma"],
+    "answer": "ELK Stack",
+    "keyword": "logging"
+  },
+  {
+    "id": 14,
+    "question": "Which strategy improves fault tolerance?",
+    "options": ["Single server", "Redundancy", "Manual deployment", "Hardcoding IP"],
+    "answer": "Redundancy",
+    "keyword": "fault-tolerance"
+  },
+  {
+    "id": 15,
+    "question": "What is the purpose of a health check endpoint?",
+    "options": ["Debug UI", "Monitor service status", "Store logs", "Encrypt data"],
+    "answer": "Monitor service status",
+    "keyword": "monitoring"
+  },
+  {
+    "id": 16,
+    "question": "Which concept isolates failures to prevent spreading?",
+    "options": ["Circuit Breaker", "Load Balancer", "Database Index", "DNS Routing"],
+    "answer": "Circuit Breaker",
+    "keyword": "resilience"
+  },
+  {
+    "id": 17,
+    "question": "Which metric measures throughput?",
+    "options": ["Requests per second", "CPU temperature", "Disk size", "Ping time"],
+    "answer": "Requests per second",
+    "keyword": "monitoring"
+  },
+  {
+    "id": 18,
+    "question": "Which Kubernetes object handles pod scaling?",
+    "options": ["Deployment", "Service", "ConfigMap", "Secret"],
+    "answer": "Deployment",
+    "keyword": "kubernetes"
+  },
+  {
+    "id": 19,
+    "question": "Which practice improves reliability through testing in production?",
+    "options": ["Chaos Engineering", "Manual Testing", "Code Freeze", "Hardcoding"],
+    "answer": "Chaos Engineering",
+    "keyword": "reliability"
+  },
+  {
+    "id": 20,
+    "question": "Which metric measures system error rate?",
+    "options": ["5xx responses", "200 responses", "CPU usage", "Disk space"],
+    "answer": "5xx responses",
+    "keyword": "monitoring"
+  }
+]

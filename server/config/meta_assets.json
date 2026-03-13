@@ -1,0 +1,39 @@
+{
+  "companies": {
+    "Google": {
+      "references": [
+        "https://careers.google.com/",
+        "https://developers.google.com/",
+        "https://opensource.google/"
+      ],
+      "mock_tests": [
+        {"title": "Google Systems Mock Test", "content": "Design a scalable video streaming backend. Include storage, CDN, and replication strategies."},
+        {"title": "Google DSA Mock Test", "content": "3 problems: arrays, trees, graphs. 30 minutes total."}
+      ],
+      "roles": {
+        "Software Engineer (Common Role)": {
+          "references": ["https://tech.google/"],
+          "mock_tests": [{"title":"SE Algo Drill","content":"Two medium DSA problems, 40 minutes."}]
+        }
+      }
+    },
+    "Amazon": {
+      "references": [
+        "https://aws.amazon.com/",
+        "https://www.amazon.jobs/"
+      ],
+      "mock_tests": [
+        {"title": "Amazon System Design Mock", "content": "Design a highly available e-commerce checkout system."}
+      ]
+    },
+    "Meta": {
+      "references": [
+        "https://engineering.fb.com/",
+        "https://www.metacareers.com/"
+      ],
+      "mock_tests": [
+        {"title": "Meta Data Systems Mock", "content": "Design a distributed analytics pipeline for ranking social posts."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "Which AWS service provides auto-scaling capability?",
+    "options": ["EC2 Auto Scaling", "S3", "IAM", "Route 53"],
+    "answer": "EC2 Auto Scaling",
+    "keyword": "aws"
+  },
+  {
+    "id": 2,
+    "question": "What is the main purpose of Infrastructure as Code (IaC)?",
+    "options": ["Manual server setup", "Automated infrastructure provisioning", "Database tuning", "Frontend deployment"],
+    "answer": "Automated infrastructure provisioning",
+    "keyword": "iac"
+  },
+  {
+    "id": 3,
+    "question": "Which file is used to build a Docker image?",
+    "options": ["docker-compose.yml", "Dockerfile", "package.json", "build.gradle"],
+    "answer": "Dockerfile",
+    "keyword": "docker"
+  },
+  {
+    "id": 4,
+    "question": "Which Kubernetes object manages pod replicas?",
+    "options": ["Pod", "Service", "Deployment", "ConfigMap"],
+    "answer": "Deployment",
+    "keyword": "kubernetes"
+  },
+  {
+    "id": 5,
+    "question": "What does CI primarily ensure?",
+    "options": ["Continuous Infrastructure", "Continuous Integration", "Cloud Isolation", "Code Isolation"],
+    "answer": "Continuous Integration",
+    "keyword": "cicd"
+  },
+  {
+    "id": 6,
+    "question": "Which tool is commonly used for configuration management?",
+    "options": ["Ansible", "Jenkins", "Docker", "Git"],
+    "answer": "Ansible",
+    "keyword": "devops-tools"
+  },
+  {
+    "id": 7,
+    "question": "Which AWS service is used for DNS routing?",
+    "options": ["CloudFront", "Route 53", "Elastic Beanstalk", "EKS"],
+    "answer": "Route 53",
+    "keyword": "aws"
+  },
+  {
+    "id": 8,
+    "question": "Which deployment strategy reduces downtime?",
+    "options": ["Big Bang", "Blue-Green", "Manual Deployment", "Cold Start"],
+    "answer": "Blue-Green",
+    "keyword": "deployment"
+  },
+  {
+    "id": 9,
+    "question": "Which command lists running Docker containers?",
+    "options": ["docker run", "docker ps", "docker images", "docker build"],
+    "answer": "docker ps",
+    "keyword": "docker"
+  },
+  {
+    "id": 10,
+    "question": "Which metric indicates system availability?",
+    "options": ["Latency", "Throughput", "Uptime", "Bandwidth"],
+    "answer": "Uptime",
+    "keyword": "monitoring"
+  },
+  {
+    "id": 11,
+    "question": "Which Kubernetes service type exposes application externally?",
+    "options": ["ClusterIP", "NodePort", "ConfigMap", "Secret"],
+    "answer": "NodePort",
+    "keyword": "kubernetes"
+  },
+  {
+    "id": 12,
+    "question": "Which AWS service provides object storage?",
+    "options": ["EBS", "S3", "EC2", "RDS"],
+    "answer": "S3",
+    "keyword": "aws"
+  },
+  {
+    "id": 13,
+    "question": "What is the purpose of load balancing?",
+    "options": ["Increase server load", "Distribute traffic evenly", "Reduce storage", "Encrypt traffic"],
+    "answer": "Distribute traffic evenly",
+    "keyword": "architecture"
+  },
+  {
+    "id": 14,
+    "question": "Which tool is used for container orchestration?",
+    "options": ["Docker Swarm", "Kubernetes", "Both", "None"],
+    "answer": "Both",
+    "keyword": "containers"
+  },
+  {
+    "id": 15,
+    "question": "What is the default port for HTTPS?",
+    "options": ["80", "21", "443", "22"],
+    "answer": "443",
+    "keyword": "networking"
+  },
+  {
+    "id": 16,
+    "question": "Which log monitoring tool is popular in DevOps?",
+    "options": ["ELK Stack", "Excel", "Notepad", "Photoshop"],
+    "answer": "ELK Stack",
+    "keyword": "monitoring"
+  },
+  {
+    "id": 17,
+    "question": "Which AWS service is used for serverless computing?",
+    "options": ["EC2", "Lambda", "RDS", "SQS"],
+    "answer": "Lambda",
+    "keyword": "aws"
+  },
+  {
+    "id": 18,
+    "question": "What does Terraform primarily manage?",
+    "options": ["Code compilation", "Infrastructure provisioning", "UI rendering", "Database queries"],
+    "answer": "Infrastructure provisioning",
+    "keyword": "terraform"
+  },
+  {
+    "id": 19,
+    "question": "Which protocol secures shell access?",
+    "options": ["HTTP", "SSH", "FTP", "SMTP"],
+    "answer": "SSH",
+    "keyword": "security"
+  },
+  {
+    "id": 20,
+    "question": "Which concept ensures zero downtime during deployment?",
+    "options": ["Canary Release", "Manual Restart", "Cold Deployment", "Single Server"],
+    "answer": "Canary Release",
+    "keyword": "deployment"
+  }
+]

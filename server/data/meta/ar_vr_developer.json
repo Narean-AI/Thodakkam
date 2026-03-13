@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "question": "Which rendering technique improves performance by only rendering visible objects?",
+    "options": ["Ray Tracing", "Occlusion Culling", "Global Illumination", "Tessellation"],
+    "answer": "Occlusion Culling",
+    "keyword": "graphics"
+  },
+  {
+    "id": 2,
+    "question": "Which engine is most commonly used for VR development?",
+    "options": ["Unity", "Angular", "Django", "Flask"],
+    "answer": "Unity",
+    "keyword": "game-engine"
+  },
+  {
+    "id": 3,
+    "question": "What does FPS stand for in VR performance?",
+    "options": ["Frames Per Second", "First Person Scene", "Full Processing Speed", "Frame Pixel Size"],
+    "answer": "Frames Per Second",
+    "keyword": "performance"
+  },
+  {
+    "id": 4,
+    "question": "Which concept reduces motion sickness in VR?",
+    "options": ["Low frame rate", "High latency", "Low latency", "Blur rendering"],
+    "answer": "Low latency",
+    "keyword": "vr-optimization"
+  },
+  {
+    "id": 5,
+    "question": "Which coordinate system is commonly used in 3D graphics?",
+    "options": ["Cartesian", "Polar Only", "Binary", "Hexadecimal"],
+    "answer": "Cartesian",
+    "keyword": "3d-math"
+  },
+  {
+    "id": 6,
+    "question": "What is raycasting primarily used for in AR/VR?",
+    "options": ["Lighting only", "Object selection", "Texture compression", "Physics removal"],
+    "answer": "Object selection",
+    "keyword": "interaction"
+  },
+  {
+    "id": 7,
+    "question": "Which API is widely used for WebXR experiences?",
+    "options": ["WebXR API", "REST API", "SOAP API", "GraphQL"],
+    "answer": "WebXR API",
+    "keyword": "webxr"
+  },
+  {
+    "id": 8,
+    "question": "Which shading technique improves realism?",
+    "options": ["Flat Shading", "Phong Shading", "Wireframe", "Outline Only"],
+    "answer": "Phong Shading",
+    "keyword": "graphics"
+  },
+  {
+    "id": 9,
+    "question": "Which device is commonly used for VR interaction?",
+    "options": ["Oculus Controller", "Keyboard", "Mouse Only", "Printer"],
+    "answer": "Oculus Controller",
+    "keyword": "hardware"
+  },
+  {
+    "id": 10,
+    "question": "Which technique maps 2D textures onto 3D models?",
+    "options": ["UV Mapping", "Binary Mapping", "Raster Copy", "Linear Scan"],
+    "answer": "UV Mapping",
+    "keyword": "3d-modeling"
+  },
+  {
+    "id": 11,
+    "question": "What causes simulator sickness?",
+    "options": ["High FPS", "Low latency", "High latency mismatch", "Stable tracking"],
+    "answer": "High latency mismatch",
+    "keyword": "vr-optimization"
+  },
+  {
+    "id": 12,
+    "question": "Which tracking method uses external cameras?",
+    "options": ["Outside-in tracking", "Inside-out tracking", "Manual tracking", "Static tracking"],
+    "answer": "Outside-in tracking",
+    "keyword": "tracking"
+  },
+  {
+    "id": 13,
+    "question": "Which physics engine is integrated in Unity?",
+    "options": ["PhysX", "Havok Only", "Unreal Engine", "CryEngine"],
+    "answer": "PhysX",
+    "keyword": "physics"
+  },
+  {
+    "id": 14,
+    "question": "Which concept allows persistent AR objects in real world?",
+    "options": ["Anchors", "Sprites", "Textures", "Meshes"],
+    "answer": "Anchors",
+    "keyword": "ar-core"
+  },
+  {
+    "id": 15,
+    "question": "Which rendering approach simulates realistic lighting paths?",
+    "options": ["Rasterization", "Ray Tracing", "Sprite Mapping", "Bit Blitting"],
+    "answer": "Ray Tracing",
+    "keyword": "graphics"
+  },
+  {
+    "id": 16,
+    "question": "Which factor most affects VR immersion?",
+    "options": ["Resolution", "Frame rate", "Field of View", "All of the above"],
+    "answer": "All of the above",
+    "keyword": "vr-experience"
+  },
+  {
+    "id": 17,
+    "question": "Which file format is common for 3D models?",
+    "options": [".obj", ".txt", ".html", ".css"],
+    "answer": ".obj",
+    "keyword": "3d-assets"
+  },
+  {
+    "id": 18,
+    "question": "Which technique improves rendering performance in large scenes?",
+    "options": ["Level of Detail (LOD)", "High Polygon Count", "Full Resolution Always", "Manual Redraw"],
+    "answer": "Level of Detail (LOD)",
+    "keyword": "optimization"
+  },
+  {
+    "id": 19,
+    "question": "Which AR SDK is developed by Google?",
+    "options": ["ARKit", "ARCore", "Vuforia", "OpenXR"],
+    "answer": "ARCore",
+    "keyword": "ar-platform"
+  },
+  {
+    "id": 20,
+    "question": "Which concept allows multiplayer VR synchronization?",
+    "options": ["State replication", "Static rendering", "Manual sync", "Local-only storage"],
+    "answer": "State replication",
+    "keyword": "networking"
+  }
+]
