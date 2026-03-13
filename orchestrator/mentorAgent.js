@@ -5,7 +5,7 @@ const strategyAgent = require("../agents/strategyAgent");
 const interviewAgent = require("../agents/interviewAgent");
 const { generateNextTasks } = require("../agents/autonomousCoachAgent");
 
-async function mentorAgent({ company, role, scores, previousAnalysis }) {
+async function mentorAgent({ company, role, scores, previousAnalysis, weakSubjects = [], strongSubjects = [], overallAccuracy = 0, avgSecondsPerQuestion = null, daysRequired = 30 }) {
   const actionsTaken = [];
   const goal = "Improve student placement readiness";
 
@@ -18,8 +18,12 @@ async function mentorAgent({ company, role, scores, previousAnalysis }) {
   const performanceAnalysis = await performanceAgent(scores);
   logAction("Ran performanceAgent");
 
-  const companyTrends = await trendAgent(company);
-  logAction("Ran trendAgent");
+  const companyTrends = await trendAgent({
+    company,
+    role,
+    weakTopics: performanceAnalysis.weakTopics
+  });
+  logAction(`Ran trendAgent (${companyTrends.source || "fallback"})`);
 
   const riskAssessment = await riskAgent({
     weakTopics: performanceAnalysis.weakTopics,
@@ -44,10 +48,15 @@ async function mentorAgent({ company, role, scores, previousAnalysis }) {
   if (shouldRunStrategy) {
     preparationStrategy = await strategyAgent({
       weakTopics: performanceAnalysis.weakTopics,
+      weakSubjects,
+      strongSubjects,
+      overallAccuracy,
+      avgSecondsPerQuestion,
       riskLevel: riskAssessment.riskLevel,
       company,
       role,
-      previousPlan: previousAnalysis?.preparationStrategy?.preparationPlan || null
+      previousPlan: previousAnalysis?.preparationStrategy?.preparationPlan || null,
+      daysRequired
     });
     logAction("Ran strategyAgent (dynamic decision)");
   } else {
